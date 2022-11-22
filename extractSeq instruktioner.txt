@@ -1,0 +1,23 @@
+Programmet kan trække sekvenser fra fasta filer ud fra givne positioner. 
+
+## Køre programmet:
+Hurtigt eksempel:
+python extractSeq.py -i hg38.fa -p "chr3:12345 - 54321"
+
+Detaljerne:
+1. Åben kommandoprompt (søg og skriv cmd)
+2. Skriv "python" uden citationstegn og træk extractSeq.py ind i prompten. 
+3. Skriv derefter følgende argumenter hvor ting i [] erstattes som ønsket:
+	-i [fasta (kan trækkes ind i prompten)] -p [positioner i citationstegn]
+	Hvis der kun er 1 sekvens, kan sekvens id udelades, eks:
+	python extractSeq.py -i HPV16.fa -p "1234 - 4321"
+4. Tryk enter. 
+
+
+## Installation på Windows:
+1. Download den nyeste version af python fra python.org
+2. Installer og husk at tjekke flueben hvor der spørges om ADD TO PATH
+3. Åben Windows kommandoprompt (søg og skriv cmd)
+4. I kommandoprompten skrives:
+pip install Bio
+
